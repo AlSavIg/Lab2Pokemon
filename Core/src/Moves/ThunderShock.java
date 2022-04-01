@@ -7,4 +7,8 @@ public class ThunderShock extends SpecialMove {
                         double acc) {
         super(type, pow, acc);
     }
+
+    protected void applyOppEffect(Pokemon p) {
+        Effect.confuse(p);
+    }
 }

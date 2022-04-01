@@ -7,4 +7,8 @@ public class RockSlide extends PhysicalMove {
                      double acc) {
         super(type, pow, acc);
     }
+
+    protected void applyOppEffect(Pokemon p) {
+        Effect e = new Effect().chance(0.5).turns(1).stat(Stat.SPEED, -1);
+    }
 }
