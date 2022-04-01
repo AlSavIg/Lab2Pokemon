@@ -11,7 +11,7 @@ public class Metagross extends Metang {
     final double attack = 60;
     final double defense = 85;
     final double special_attack = 120;
-    final double special_defense = 91;
+    final double special_defense = 20;
     final double speed = 36;
     public Metagross(final String name, final int level) {
         super(name, level);
