@@ -5,4 +5,8 @@ public class DynamicPunch extends SpecialMove {
     public DynamicPunch(final Type type, double pow, double acc) {
         super(type, pow, acc);
     }
+
+    protected void applyOppEffect(Pokemon p) {
+            Effect.freeze(p);
+    }
 }

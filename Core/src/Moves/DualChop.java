@@ -10,7 +10,7 @@ public class DualChop extends PhysicalMove {
         super(type, pow, acc);
     }
 
-//    protected void applyOppEffects(Pokemon p){
-//        Effect.poison(p);
-//    }
+    protected void applyOppEffects(Pokemon p){
+        Effect.poison(p);
+    }
 }

@@ -7,4 +7,8 @@ public class IceBeam extends SpecialMove {
                         double acc) {
         super(type, pow, acc);
     }
+
+    protected void applyOppEffect(Pokemon p) {
+        Effect.freeze(p);
+    }
 }
